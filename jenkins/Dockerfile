@@ -2,6 +2,8 @@
 
 FROM jenkins/jenkins:lts
 
+LABEL maintainer="Tuan Anh Nguyen <nguyenhuutuananh2@gmail.com>"
+
 # https://www.jenkins.io/doc/book/installing/docker/#downloading-and-running-jenkins-in-docker
 
 USER root
